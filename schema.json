@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "@runnerty-notifier-sms",
+  "definitions": {
+    "config": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "account",
+        "token",
+        "from"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "pattern": "@runnerty-notifier-sms"
+        },
+        "account": {
+          "type": "string"
+        },
+        "from": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    },
+    "params": {
+      "type": "object",
+      "required": [
+        "id",
+        "to",
+        "message"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "to": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

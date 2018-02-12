@@ -1,0 +1,24 @@
+{
+  "name": "@runnerty/notifier-sms",
+  "version": "1.0.0",
+  "description": "Runnerty module: SMS notifier",
+  "author": "pakitovic",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runnerty/notifier-sms.git"
+  },
+  "keywords": [
+    "runnerty",
+    "notifier",
+    "sms"
+  ],
+  "bugs": {
+    "url": "https://github.com/runnerty/notifier-sms/issues"
+  },
+  "homepage": "https://github.com/runnerty/notifier-sms#readme",
+  "dependencies": {
+    "twilio": "^3.11.3"
+  }
+}
