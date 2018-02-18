@@ -1,16 +1,16 @@
 "use strict";
 
 const Notification = global.NotificationClass;
-const SmsClient = require("twilio");
+const TwilioClient = require("twilio");
 
-class smsNotifier extends Notification {
+class twilioNotifier extends Notification {
   constructor(notification) {
     super(notification);
   }
 
   send(notification) {
     let _this = this;
-    let sms = new SmsClient(notification.account, notification.token);
+    let sms = new TwilioClient(notification.account, notification.token);
     sms.messages.create({
       to: notification.to,
       from: notification.from,
@@ -22,4 +22,4 @@ class smsNotifier extends Notification {
   }
 }
 
-module.exports = smsNotifier;
+module.exports = twilioNotifier;

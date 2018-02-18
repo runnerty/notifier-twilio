@@ -1,23 +1,24 @@
 {
-  "name": "@runnerty/notifier-sms",
+  "name": "@runnerty/notifier-twilio",
   "version": "1.0.0",
-  "description": "Runnerty module: SMS notifier",
+  "description": "Runnerty module: Twilio SMS notifier",
   "author": "pakitovic",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/runnerty/notifier-sms.git"
+    "url": "git+https://github.com/runnerty/notifier-twilio.git"
   },
   "keywords": [
     "runnerty",
     "notifier",
+    "twilio",
     "sms"
   ],
   "bugs": {
-    "url": "https://github.com/runnerty/notifier-sms/issues"
+    "url": "https://github.com/runnerty/notifier-twilio/issues"
   },
-  "homepage": "https://github.com/runnerty/notifier-sms#readme",
+  "homepage": "https://github.com/runnerty/notifier-twilio#readme",
   "dependencies": {
     "twilio": "^3.11.3"
   }

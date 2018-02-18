@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "title": "@runnerty-notifier-sms",
+  "title": "@runnerty-notifier-twilio",
   "definitions": {
     "config": {
       "type": "object",
@@ -17,7 +17,7 @@
         },
         "type": {
           "type": "string",
-          "pattern": "@runnerty-notifier-sms"
+          "pattern": "@runnerty-notifier-twilio"
         },
         "account": {
           "type": "string"
