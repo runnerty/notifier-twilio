@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/runnerty/notifier-twilio#readme",
   "dependencies": {
-    "twilio": "^3.11.3"
+    "twilio": "^4.6.0"
   }
 }
