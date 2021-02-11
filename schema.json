@@ -4,13 +4,7 @@
   "definitions": {
     "config": {
       "type": "object",
-      "required": [
-        "id",
-        "type",
-        "account",
-        "token",
-        "from"
-      ],
+      "required": ["id", "type", "account", "token", "from"],
       "properties": {
         "id": {
           "type": "string"
@@ -35,11 +29,7 @@
     },
     "params": {
       "type": "object",
-      "required": [
-        "id",
-        "to",
-        "message"
-      ],
+      "required": ["id", "to", "message"],
       "properties": {
         "id": {
           "type": "string"

@@ -1,0 +1,11 @@
+{
+  "notifiers": [
+    {
+      "id": "twilio_default",
+      "type": "@runnerty-notifier-twilio",
+      "account": "AC1234567890",
+      "token": "ABC123",
+      "from": "+99123456789"
+    }
+  ]
+}

@@ -1,24 +1,29 @@
-"use strict";
+'use strict';
 
-const Notification = global.NotificationClass;
-const TwilioClient = require("twilio");
+const Notifier = require('@runnerty/module-core').Notifier;
+const TwilioClient = require('twilio');
 
-class twilioNotifier extends Notification {
+class twilioNotifier extends Notifier {
   constructor(notification) {
     super(notification);
   }
 
-  send(notification) {
-    let _this = this;
-    let sms = new TwilioClient(notification.account, notification.token);
-    sms.messages.create({
-      to: notification.to,
-      from: notification.from,
-      body: notification.message
-    })
-      .then(function () {
-        _this.end();
+  async send(notification) {
+    try {
+      const client = new TwilioClient(notification.account, notification.token);
+      await client.messages.create({
+        to: notification.to,
+        from: notification.from,
+        body: notification.message
       });
+      this.end();
+    } catch (err) {
+      const endOptions = {
+        end: 'error',
+        messageLog: `Twilio notifier: ${err}`
+      };
+      this.end(endOptions);
+    }
   }
 }
 
