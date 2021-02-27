@@ -7,13 +7,15 @@
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Dependency Status][david-badge]][david-badge-url]
 <a href="#badge">
-  <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg">
+<img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg">
 </a>
 
-
 # Twilio SMS notifier for [Runnerty]:
+
 For use with [twilio] SMS services. More info: [twilio on NPM]
+
 ### Installation:
+
 Through NPM
 
 ```bash
@@ -35,6 +37,7 @@ rty add @runnerty/notifier-twilio
 ```
 
 ### Configuration sample:
+
 Add it in the notification section of the [config.json] file. More information [here](https://docs.runnerty.io/notifiers):
 
 ```json
@@ -48,7 +51,9 @@ Add it in the notification section of the [config.json] file. More information [
 ```
 
 ### Plan sample:
+
 Add add it to any [chain](https://docs.runnerty.io/chain) or [process](https://docs.runnerty.io/process) notification event. More information [here](https://docs.runnerty.io/notifiers):
+
 ```json
 {
   "id": "twilio_default",
@@ -57,7 +62,7 @@ Add add it to any [chain](https://docs.runnerty.io/chain) or [process](https://d
 }
 ```
 
-[Runnerty]: https://www.runnerty.io
+[runnerty]: https://www.runnerty.io
 [downloads-image]: https://img.shields.io/npm/dm/@runnerty/notifier-twilio.svg
 [npm-url]: https://www.npmjs.com/package/@runnerty/notifier-twilio
 [npm-image]: https://img.shields.io/npm/v/@runnerty/notifier-twilio.svg
@@ -68,4 +73,4 @@ Add add it to any [chain](https://docs.runnerty.io/chain) or [process](https://d
 [plan.json]: https://docs.runnerty.io/plan/
 [runnerty-cli]: https://www.npmjs.com/package/runnerty-cli
 [twilio]: http://www.twilio.com
-[twilio on NPM]: https://www.npmjs.com/package/twilio
+[twilio on npm]: https://www.npmjs.com/package/twilio
