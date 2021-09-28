@@ -22,18 +22,18 @@ Through NPM
 npm i @runnerty/notifier-twilio
 ```
 
-You can also add modules to your project with [runnerty-cli]
+You can also add modules to your project with [runnerty]
 
 ```bash
-npx runnerty-cli add @runnerty/notifier-twilio
+npx runnerty add @runnerty/notifier-twilio
 ```
 
-This command installs the module in your project, adds example configuration in your `config.json`.
+This command installs the module in your project, adds example configuration in your [config.json] and creates an example plan of use.
 
-If you have installed [runnerty-cli] globally you can include the module with this command:
+If you have installed [runnerty] globally you can include the module with this command:
 
 ```bash
-rty add @runnerty/notifier-twilio
+runnerty add @runnerty/notifier-twilio
 ```
 
 ### Configuration sample:
@@ -71,6 +71,5 @@ Add add it to any [chain](https://docs.runnerty.io/chain) or [process](https://d
 [config.json]: https://docs.runnerty.io/config/
 [notifiers]: https://docs.runnerty.io/notifiers
 [plan.json]: https://docs.runnerty.io/plan/
-[runnerty-cli]: https://www.npmjs.com/package/runnerty-cli
 [twilio]: http://www.twilio.com
 [twilio on npm]: https://www.npmjs.com/package/twilio

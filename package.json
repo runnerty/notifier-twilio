@@ -1,6 +1,6 @@
 {
   "name": "@runnerty/notifier-twilio",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Runnerty module: Twilio SMS notifier",
   "author": "Runnerty Tech",
   "license": "MIT",
@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/runnerty/notifier-twilio#readme",
   "dependencies": {
-    "@runnerty/module-core": "~3.0.5",
-    "twilio": "~3.57.0"
+    "@runnerty/module-core": "~3.0.6",
+    "twilio": "~3.68.0"
   },
   "devDependencies": {
-    "eslint": "^7.20.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "^2.2.1"
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
   }
 }
