@@ -25,7 +25,7 @@
   "homepage": "https://github.com/runnerty/notifier-twilio#readme",
   "dependencies": {
     "@runnerty/module-core": "~3.1.0",
-    "twilio": "~3.73.1"
+    "twilio": "~4.10.0"
   },
   "devDependencies": {
     "eslint": "^8.8.0",
